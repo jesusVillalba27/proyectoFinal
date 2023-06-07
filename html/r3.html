@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/r3.css">
+    <title>Gestion De películas</title>
+</head>
+<body>
+    <div class="tituloLogo">
+        <img src="../recursos/WhatsApp_Image_2023-06-03_at_10.24.23_AM-removebg-preview.png" alt="" width="150px" height="150px">
+        <img src="../recursos/Cartelera__10_1gestionP-removebg-preview.png" alt="" width="85%" height="150px">
+    </div>
+    <form id="form-pelicula">
+
+        <div class="fondo">
+            <br><br>
+
+            <div class="codigo">
+                <label for="codigo">Código:</label>
+                <input type="text" id="codigo" name="codigo"> 
+          
+
+            </div>
+
+            <div class="nombreOrigin">
+
+                <label for="nombre-original">Nombre original:</label>
+            <input type="text" id="nombre-original" name="nombre-original"> 
+            </div>
+            
+      
+            <div class="nombreAsig">
+
+                
+            <label for="nombre-asignado">Nombre asignado:</label>
+            <input type="text" id="nombre-asignado" name="nombre-asignado"> 
+            </div>
+          
+      
+            <div class="generos">
+
+                    <label for="genero">Género:</label>
+            <input type="text" id="genero" name="genero"> 
+            </div>
+      
+            <div class="idiomaOringin">
+
+                <label for="idioma-original">Idioma original:</label>
+                <input type="text" id="idioma-original" name="idioma-original"> 
+
+            </div>
+      
+            <div class="idiomasDisponi">
+
+            <label for="idiomas-disponibles">Idiomas disponibles:</label>
+            <select id="idiomas-disponibles" name="idiomas-disponibles">
+            <option value="ingles">Inglés</option>
+            <option value="espanol">Español</option>
+            <option value="portugues">Portugués</option>
+            </select> 
+
+            </div>
+           
+      
+           <div class="subtitulos">
+
+            <label for="subtitulos-disponibles">Subtítulos disponibles:</label>
+        <input type="checkbox" id="subtitulos-disponibles" name="subtitulos-disponibles"> 
+      
+           </div>
+      
+           <div class="Duraciones">
+            <label for="duracion">Duración:</label>
+             <input type="text" id="duracion" name="duracion"> 
+
+           </div>
+        
+      
+           <div class="actoresPrincipales">
+
+              
+        <label for="actores-principales">Actores principales:</label>
+        <textarea id="actores-principales" name="actores-principales"></textarea>
+           </div>
+    
+           <div class="actoresSecun">
+
+             <label for="actores-secundarios">Actores secundarios:</label>
+             <textarea id="actores-secundarios" name="actores-secundarios"></textarea> 
+
+           </div>
+      
+           
+           <div class="numAfiches">
+
+              <label for="num-afiches">Número de afiches disponibles:</label>
+        <input type="number" id="num-afiches" name="num-afiches"> 
+           </div>
+      
+      
+           <div class="numCopias">
+
+             <label for="num-copias">Número de copias:</label>
+        <input type="number" id="num-copias" name="num-copias"> 
+           </div>
+       
+           <div class="productoras">
+
+            <label for="productora">Productora:</label>
+        <input type="text" id="productora" name="productora">
+           </div>
+      
+           <div class="boton">
+
+                 <button type="button" onclick="guardarPelicula()" class="idBoton">Guardar</button>
+            <button type="button" onclick="actualizarPelicula()"class="idBoton">Actualizar</button>
+           </div>
+        
+      
+   
+
+
+        </div>
+        
+    </form>
+
+<script src="../js/jsparaR3.js"></script>
+</body>
+</html>

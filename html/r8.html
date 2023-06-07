@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/r8.css">
+    <title>Gestión de usuarios</title>
+    
+</head>
+<body>
+    <div class="tituloLogo">
+        <img src="../recursos/WhatsApp_Image_2023-06-03_at_10.24.23_AM-removebg-preview.png" alt="" width="150px" height="150px">
+        <img src="../recursos/Cartelera__13_-removebg-preview.png" alt="" width="85%" height="150px">
+      </div>
+    <form id="formularioUsuarios">
+        <div class="fondo">
+            <br><br>
+            <div class="usuariox">
+
+            <label for="usuario">Usuario:</label>
+             <input type="text" id="usuario" name="usuario" required> 
+
+            </div>
+            
+            <div class="password">
+
+                      <label for="contrasena">Contraseña:</label>
+            <input type="password" id="contrasena" name="contrasena" required> <br> <br>
+            </div>
+
+
+            <div class="rol">
+
+                <label for="rol">Rol:</label>
+            <select id="rol" name="rol">
+            <option value="gerente">GERENTE</option>
+            <option value="vendedor">VENDEDOR</option>
+            <option value="administrador">ADMINISTRADOR</option>
+             </select>
+            <input type="submit" value="Registrar" class="registrar">
+            </div>
+      
+
+            
+            </div>
+        
+    </form> 
+
+    
+
+ <script src="../js/jsparaR8.js"></script> 
+</body>
+</html>

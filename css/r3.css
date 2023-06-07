@@ -1,0 +1,149 @@
+.tituloLogo{
+
+    background-color: #1f99d8;
+    margin: 1%;
+    
+}
+
+.fondo{
+    
+    background-image: url(https://images.hdqwalls.com/download/deadpool-2-movie-cinema-01-1680x1050.jpg);
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    background-color: grey;
+    height: 800px;
+}
+
+.codigo{
+
+    font-size: 35px;
+    color: whitesmoke;
+    margin: 1%;
+    display: flex;
+}
+.nombreOrigin{
+
+    font-size: 35px;
+    color: whitesmoke;
+    margin: 1%;
+    display: flex;
+}
+
+.nombreAsig{
+
+    font-size: 35px;
+    color: whitesmoke;
+    margin: 1%;
+    display: flex;
+
+}
+
+.generos{
+
+    font-size: 35px;
+    color: whitesmoke;
+    margin: 1%;
+    display: flex;
+}
+
+.idiomaOringin{
+    font-size: 35px;
+    color: whitesmoke;
+    margin: 1%;
+    display: flex;
+}
+
+.idiomasDisponi{
+
+    font-size: 35px;
+    color: whitesmoke;
+    margin: 1%;
+    display: flex;
+}
+
+.subtitulos{
+    font-size: 35px;
+    color: whitesmoke;
+    margin: 1%;
+    display: flex;
+
+}
+
+.Duraciones{
+    font-size: 35px;
+    color: whitesmoke;
+    margin: 1%;
+    display: flex;
+
+}
+
+.actoresPrincipales{
+
+    font-size: 35px;
+    color: whitesmoke;
+    margin: 1%;
+    display: flex;
+}
+
+.actoresSecun{
+    font-size: 35px;
+    color: whitesmoke;
+    margin: 1%;
+    display: flex;
+
+}
+
+.numAfiches{
+
+    font-size: 35px;
+    color: whitesmoke;
+    margin: 1%;
+    display: flex;
+}
+
+.numCopias{
+    font-size: 35px;
+    color: whitesmoke;
+    margin: 1%;
+    display: flex;
+
+}
+
+.productoras{
+
+    font-size: 35px;
+    color: whitesmoke;
+    margin: 1%;
+    display: flex;
+}
+.boton{
+
+    display: flex;
+    width: 10%;
+}
+
+.idBoton {
+   
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+ 
+    transition: background-color 0.3s ease;
+  }
+  
+  .idBoton:hover {
+    background-color: #2980b9;
+  }
+  
+  .idBoton:focus {
+    outline: none;
+    background-color: red;
+  }
+  
+  .idBoton:active {
+    background-color:red;
+  }

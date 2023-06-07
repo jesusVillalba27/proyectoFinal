@@ -1,0 +1,48 @@
+.titulo{
+
+    display: flex;
+    width: 100%; 
+    height: 20%;
+   background-color: #1f99d8;
+}
+
+.flex{
+
+    display: flex;
+}
+
+.pelicula1{
+    margin: 2%;
+    width: 33%;
+    align-items: center;
+    text-align: center;
+}
+
+.pelicula2{
+    margin: 2%;
+    width: 33%;
+    align-items: center;
+    text-align: center;
+}
+.imagen1{
+
+    width: 80%;
+     height:"450px";
+}
+
+.imagen2{
+
+    width: 80%;
+     height:"420px";
+}
+.pelicula3{
+    margin: 2%;
+    width: 33%;
+    align-items: center;
+    text-align: center;
+}
+.imagen3{
+
+    width: 80%;
+     height:"420px";
+}

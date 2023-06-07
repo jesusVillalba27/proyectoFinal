@@ -1,0 +1,145 @@
+.tituloLogo{
+
+    background-color: #1f99d8;
+    margin: 1%;
+    }
+
+    .fondo{
+    
+        background-image: url(https://images.hdqwalls.com/download/deadpool-2-movie-cinema-01-1680x1050.jpg);
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        background-color: grey;
+        height: 800px;
+    }
+
+.codigoCliente{
+    font-size: 35px;
+    color: whitesmoke;
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.name{
+    font-size: 35px;
+    color: whitesmoke;
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.apellidos{
+
+    font-size: 35px;
+    color: whitesmoke;
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Direccions{
+    font-size: 35px;
+    color: whitesmoke;
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.telefonos{
+    font-size: 35px;
+    color: whitesmoke;
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.correos{
+    font-size: 35px;
+    color: whitesmoke;
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.dateNacimiento{
+
+    font-size: 35px;
+    color: whitesmoke;
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nameUsuario{
+
+    font-size: 35px;
+    color: whitesmoke;
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.password{
+
+    font-size: 35px;
+    color: whitesmoke;
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.redesSociales{
+
+    font-size: 35px;
+    color: whitesmoke;
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nameNick{
+
+    font-size: 35px;
+    color: whitesmoke;
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.submitt{
+
+    font-size: 35px;
+    color: whitesmoke;
+    margin: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

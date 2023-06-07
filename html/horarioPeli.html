@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/horarioPeli.css">
+    <script src="../js/horarios.js"></script>
+    <title>Horarios</title>
+</head>
+<body>
+    <div class="titulo">
+        <img src="../recursos/WhatsApp_Image_2023-06-03_at_10.24.23_AM-removebg-preview.png" alt="" width="150px" height="150px">
+      <img src="../recursos/Cartelera__4_44-removebg-preview.png" alt="" width="25%" height="150px">
+
+    </div>
+    <div class="pelicula">
+            <div class="imagen">
+                <img src="../recursos/Rapidos_y_Furiosos_X.jpg" alt="" width="100%" height="420px">
+
+
+
+             </div>
+
+             <div class="descripcion">
+                Durante numerosas misiones más que imposibles, Dom Toretto y su familia han sido capaces de ser más listos, de tener más valor y de ir más rápido que cualquier enemigo que se cruzara con ellos. Pero ahora tendrán que enfrentarse al oponente más letal que jamás hayan conocido: un terrible peligro que resurge del pasado, que se mueve por una sangrienta sed de venganza y que está dispuesto a destrozar a la familia y destruir para siempre todo lo que a Dom le importa.
+
+
+             </div>
+
+             <div class="trailer">
+
+              <video src="../recursos/Rápidos Y Furiosos X _ Tráiler Oficial Final (Universal Studios) - HD.mp4" controls autoplay width="100%" height="420px">
+                    Tu navegador no admite la etiqueta de video.
+                 </video>
+
+                  
+             </div>
+    </div>
+
+    <div class="tituloFuncion">
+    <img src="../recursos/Cartelera__1_11-removebg-preview.png" alt="" width="50%" height="100px">
+    </div>
+    <div class="fechaHorario">
+        <div  class="selecionar">
+            <img src="../recursos/Cartelera__2_23-removebg-preview.png" alt="" width="100%" height="100px">
+            <div class="dividir">
+                
+                <div class="salas" style="align-items: center;">
+
+                    <select id="sala" class="salass">
+                      <option value="sala1">Sala 1</option>
+                      <option value="sala2">Sala 2</option>
+                      <option value="sala3">Sala 3</option>
+                    </select>
+                  
+                   
+                  
+
+                </div>
+                <div class="fechas">
+
+                    <input type="date" id="fecha" class="inputDiseño"> <br><br>
+                  
+                    <button onclick="mostrarHorarios()" style="text-align: center;" class="confir">Mostrar horarios disponibles</button>
+                </div>
+
+
+            </div>
+            
+
+
+        </div>
+
+
+        <div class="horario" >
+            <div class="tituloHorario"><img src="../recursos/Cartelera__3_E33-removebg-preview.png" alt="" width="80%" height="100px"></div>
+            <div class="horario1" id="horarios-container"></div>
+            <div class="boton"> <button onclick="guardar()" class="botones">Guardar </button> </div>
+            
+        </div>
+     
+          
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

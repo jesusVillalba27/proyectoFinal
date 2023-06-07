@@ -1,0 +1,24 @@
+canvas {
+    max-width: 100px;
+  }
+
+  .chart-container {
+    width: 220px; /* Ajusta el valor según tus necesidades */
+  }
+
+  .tituloLogo{
+
+    background-color: #1f99d8;
+    margin: 1%;
+    display: flex;
+    }
+
+
+.titulo{
+
+    font-size: 120px;
+    width: 100%;
+    height: 150px;
+    color: white;
+
+    }

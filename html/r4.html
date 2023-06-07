@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gestión de Compra</title>
+  <link rel="stylesheet" href="../css/r4.css">
+</head>
+<body>
+  
+    <div class="tituloLogo">
+        <img src="../recursos/WhatsApp_Image_2023-06-03_at_10.24.23_AM-removebg-preview.png" alt="" width="150px" height="150px">
+        <div class="titulo">Gestión de compra</div>
+    </div>
+  
+  <form id="purchase-form">
+    <div class="fondo">
+<br><br>
+        <div class="numeros">
+
+            <label for="numero">Número:</label>
+            <input type="text" id="numero" required>
+        </div>
+   
+    <div class="sucursals">
+
+        <label for="sucursal">Sucursal:</label>
+    <input type="text" id="sucursal" required>
+    </div>
+    
+    <div class="pelis">
+
+       <label for="peliculas">Películas:</label>
+    <textarea id="peliculas" required></textarea> 
+    </div>
+    
+    
+    <div class="cantida">
+
+        <label for="cantidades">Cantidades:</label>
+        <textarea id="cantidades" required></textarea>
+    </div>
+    
+    <div class="preci">
+<label for="precio">Precio:</label>
+    <input type="number" id="precio" required>
+    <button type="submit">Agregar Compra</button>
+
+    </div>
+    
+    <div class="mostrar">
+        
+         </form>
+        <h2>Listado de Compras</h2>
+        <table id="purchase-table">
+     <tr>
+      <th>Número</th>
+      <th>Sucursal</th>
+      <th>Películas</th>
+      <th>Cantidades</th>
+      <th>Precio</th>
+      <th>Subtotal</th>
+      <th>Total</th>
+      <th>Fecha</th>
+    </tr>
+  </table>
+
+    </div>
+    
+   
+    </div>
+   
+  
+  
+  
+  <script src="../js/jsparaR4.js"></script>
+</body>
+</html>

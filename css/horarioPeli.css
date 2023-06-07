@@ -1,0 +1,262 @@
+.titulo{
+    display: flex;
+   width: 100%; 
+   height: 20%;
+  background-color: #1f99d8;
+}
+
+.pelicula{
+    background-image: url(https://images.hdqwalls.com/download/fast-x-dominic-toretto-4k-hk-1360x768.jpg);
+    margin: 1%;
+display: flex;
+width: 100%; 
+
+
+
+}
+
+.pelicula2{
+  background-image: url(https://images.hdqwalls.com/download/gwen-and-miles-in-spider-man-across-the-spider-verse-ej-1280x800.jpg);
+  margin: 1%;
+display: flex;
+width: 100%; 
+
+
+
+}
+.pelicula3{
+  background-image: url(https://images.hdqwalls.com/download/2023-the-little-mermaid-8k-28-1280x800.jpg);
+  margin: 1%;
+display: flex;
+width: 100%; 
+
+
+
+}
+
+.imagen{
+margin: 1%;
+border: 10%;
+
+
+}
+
+.descripcion{
+    width: 30%;
+margin: 1%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 22px;
+    color: antiquewhite;
+
+
+}
+.descripcion2{
+  width: 30%;
+margin: 1%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 20px;
+  color: antiquewhite;
+
+
+}
+.descripcion3{
+  width: 30%;
+margin: 1%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 20px;
+  color: black;
+
+
+}
+.trailer{
+
+margin: 0%;
+
+}
+
+.tituloFuncion{
+align-items: center;
+background-color: black;
+width: 100%;
+
+
+}
+
+.fechaHorario{
+
+display: flex;
+
+
+}
+
+.selecionar{
+
+width: 50%;
+background-color: #1f99d8;
+}
+
+.horario{
+
+ width: 50%;
+ background-color: darkgray;
+
+}
+
+.salas{
+
+    width: 50%;
+    background-color:#1f99d8; 
+    height: 40px;
+ 
+
+}
+
+.fechas{
+    text-align: center;
+    width: 50%;
+    background-color:#1f99d8 ;
+
+}
+
+.dividir{
+
+    display: flex;
+    height: 200px;
+}
+
+.diseño{
+    
+    width:  70%;
+    padding: 50px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 30px;
+    background-color: #f2f2f2;
+    color: #333;
+    
+
+}
+.diseño option{
+
+    background-color: #f2f2f2;
+    color: #333;
+
+}
+
+.inputDiseño{
+
+    width: 70%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 30px;
+  background-color: #f2f2f2;
+  color: #333;
+
+  
+}
+
+
+h1 {
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  select, input, button {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  #horarios-container {
+       margin-right: 10px; 
+    display: flex;
+
+  
+  }
+
+  .tituloHorario{
+
+
+
+}
+.horario1{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.salass{
+
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 30px;
+    background-color: #f2f2f2;
+    color: #333;
+
+}
+
+#horarios-container label {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  #horarios-container label:hover {
+    background-color: #e0e0e0;
+  }
+  
+
+.botones{
+    justify-content: center;
+    margin: 1%;
+    background-color:#1f99d8;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  
+
+}
+.botones:hover {
+    background-color:rgb(29, 75, 160);
+  }
+  
+  .botones:active {
+    background-color: blue;
+  }
+
+  .confir{
+    align-items: center;
+    background-color:grey;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+  }
+
+.confir:hover{
+
+background-color: #333;
+
+}
+
+.confir:active {
+    background-color:black;
+  }

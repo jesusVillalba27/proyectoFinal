@@ -1,0 +1,124 @@
+.tituloLogo{
+
+    background-color: #1f99d8;
+    margin: 1%;
+    }
+    
+    .fondo{
+        
+        background-image: url(https://images.hdqwalls.com/download/deadpool-2-movie-cinema-01-1680x1050.jpg);
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        background-color: grey;
+        height: 700px;
+    }
+
+.codigo{
+margin: 1%;
+    font-size: 35px;
+    color: whitesmoke;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.name{
+
+    font-size: 35px;
+    color: whitesmoke;
+    margin: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paises{
+
+    font-size: 35px;
+    color: whitesmoke;
+    margin: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.telefonos{
+    
+    font-size: 35px;
+    color: whitesmoke;
+    margin: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.celulares{
+
+    font-size: 35px;
+    color: whitesmoke;
+    margin: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.correo{
+
+    font-size: 35px;
+    color: whitesmoke;
+    margin: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.represet{
+
+    font-size: 35px;
+    color: whitesmoke;
+    margin: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.boton{
+
+    font-size: 35px;
+    color: whitesmoke;
+    margin: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.idBoton {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .idBoton:hover {
+    background-color: #2980b9;
+  }
+  
+  .idBoton:focus {
+    outline: none;
+    background-color: red;
+  }
+  
+  .idBoton:active {
+    background-color:red;
+  }

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/horarioPeli.css">
+    <script src="../js/horarios.js"></script>
+    <title>Horarios</title>
+</head>
+<body>
+    <div class="titulo">
+        <img src="../recursos/WhatsApp_Image_2023-06-03_at_10.24.23_AM-removebg-preview.png" alt="" width="150px" height="150px">
+      <img src="../recursos/Cartelera__4_44-removebg-preview.png" alt="" width="25%" height="150px">
+
+    </div>
+    <div class="pelicula3">
+            <div class="imagen">
+                <img src="../recursos/image_be473c63.png" alt="" width="100%" height="420px">
+
+
+
+             </div>
+
+             <div class="descripcion3">
+                Ariel es una joven y soñadora sirena, hija del Rey Tritón, que está cansada de su vida como princesa bajo el mar. Su mayor deseo es abandonar el fondo marino y tener una vida normal y apacible en la superficie. La bruja Úrsula descubre su anhelo y, por eso, a cambio de su preciosa voz le ofrece un cuerpo totalmente humano. Ariel acepta, movida por su pasión por conocer el mundo terrestre y porque está enamorada de un apuesto príncipe humano. Pero las cosas no serán fáciles para Ariel, ya que la bruja Úrsula esconde oscuras intenciones.
+
+             </div>
+
+             <div class="trailer">
+                <br>
+              <video src="../recursos/y2mate.com - LA SIRENITA Tráiler Español Latino 2023_v720P.mp4" controls autoplay width="100%" height="420px">
+                    Tu navegador no admite la etiqueta de video.
+                 </video>
+
+                  
+             </div>
+    </div>
+
+    <div class="tituloFuncion">
+    <img src="../recursos/Cartelera__1_11-removebg-preview.png" alt="" width="50%" height="100px">
+    </div>
+    <div class="fechaHorario">
+        <div  class="selecionar">
+            <img src="../recursos/Cartelera__2_23-removebg-preview.png" alt="" width="100%" height="100px">
+            <div class="dividir">
+                
+                <div class="salas" style="align-items: center;">
+
+                    <select id="sala" class="salass">
+                      <option value="sala1">Sala 1</option>
+                      <option value="sala2">Sala 2</option>
+                      <option value="sala3">Sala 3</option>
+                    </select>
+                  
+                   
+                  
+
+                </div>
+                <div class="fechas">
+
+                    <input type="date" id="fecha" class="inputDiseño"> <br><br>
+                  
+                    <button onclick="mostrarHorarios()" style="text-align: center;" class="confir">Mostrar horarios disponibles</button>
+                </div>
+
+
+            </div>
+            
+
+
+        </div>
+
+
+        <div class="horario" >
+            <div class="tituloHorario"><img src="../recursos/Cartelera__3_E33-removebg-preview.png" alt="" width="80%" height="100px"></div>
+            <div class="horario1" id="horarios-container"></div>
+            <div class="boton"> <button onclick="guardar()" class="botones">Guardar </button> </div>
+            
+        </div>
+     
+          
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+.tituloLogo{
+
+    background-color: #1f99d8;
+    margin: 1%;
+    }
+
+    .fondo{
+    
+        background-image: url(https://images.hdqwalls.com/download/deadpool-2-movie-cinema-01-1680x1050.jpg);
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        background-color: grey;
+        height: 400px;
+    }
+.usuariox{
+    font-size: 35px;
+    color: whitesmoke;
+    margin: 2%;
+    display: flex;
+    
+
+
+}
+.password{
+
+    font-size: 35px;
+    color: whitesmoke;
+    margin: 2%;
+    display: flex;
+    
+}
+
+.rol{
+
+    font-size: 35px;
+    color: whitesmoke;
+    margin: 2%;
+    display: flex;
+   
+}
+.registrar{
+
+margin: 1%;
+}

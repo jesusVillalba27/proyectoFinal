@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/r7.css">
+    <title>Gestión de Clientes</title>
+    <style ></style>
+</head>
+
+<body>
+
+
+<div class="tituloLogo">
+  <img src="../recursos/WhatsApp_Image_2023-06-03_at_10.24.23_AM-removebg-preview.png" alt="" width="150px" height="150px">
+  <img src="../recursos/Cartelera__11_11-removebg-preview.png" alt="" width="85%" height="150px">
+</div>
+<form id="formularioClientes">
+  <div class="fondo">
+
+    <div class="codigoCliente">
+      <label for="codigo">Código de cliente:</label>
+      <input type="text" id="codigo" name="codigo"> 
+      <div class="apellidos">
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido"> 
+      </div>
+    </div>
+
+    <div class="name">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre">
+      <div class="Direccions">
+        <label for="direccion">Dirección:</label>
+        <input type="text" id="direccion" name="direccion"> <br> <br>
+      </div>
+    </div>
+
+    
+
+    
+
+    <div class="telefonos">
+      <label for="telefono">Teléfono:</label>
+      <input type="tel" id="telefono" name="telefono" pattern="[0-9]+"> 
+      <div class="correos">
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo"> <br> <br>
+      </div>
+    </div>
+
+    
+      <div class="dateNacimiento">
+        <label for="fechaNacimiento">Fecha de nacimiento:</label>
+        <input type="date" id="fechaNacimiento" name="fechaNacimiento"> 
+        
+      <div class="nameUsuario">
+        <label for="nombreUsuario">Nombre de usuario:</label>
+        <input type="text" id="nombreUsuario" name="nombreUsuario"> 
+      </div>
+      </div>
+
+      
+  
+      <div class="password">
+        <label for="contrasena">Contraseña:</label>
+        <input type="password" id="contrasena" name="contrasena"> 
+
+        <div class="redesSociales">
+      <label for="redesSociales">Redes sociales:</label>
+      <select id="tipoRedSocial" onchange="mostrarCampoRedSocial()">
+        <option value="facebook">Facebook</option>
+        <option value="instagram">Instagram</option>
+        <option value="twitter">Twitter</option>
+        <option value="pinterest">Pinterest</option>
+        <option value="otra">Otra</option>
+      </select> 
+      <input type="text" id="otraRedSocial" name="otraRedSocial" placeholder="Escribe la red social" style="display: none;"> 
+    </div>
+      </div>
+
+    
+
+      <div class="nameNick">
+      <label for="nicknameRedSocial">Nickname:</label>
+      <input type="text" id="nicknameRedSocial" name="nicknameRedSocial"> 
+      <div class="submitt"><input type="submit" value="Registrar" class="boton-registrar" class="idBoton"></div>
+      
+      </div>
+
+     
+  </div>
+    
+  </form>
+
+<script src="../js/jsparaR7.js"></script>
+</body>
+</html>

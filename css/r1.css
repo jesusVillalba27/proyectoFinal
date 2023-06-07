@@ -1,0 +1,158 @@
+.tituloLogo{
+
+background-color: #1f99d8;
+margin: 1%;
+}
+
+.fondo{
+    
+    background-image: url(https://images.hdqwalls.com/download/deadpool-2-movie-cinema-01-1680x1050.jpg);
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    background-color: grey;
+    height: 700px;
+}
+
+.Codigo{
+   
+    font-size: 35px;
+    color: whitesmoke;
+    margin: 1%;
+    display: flex;
+  
+    
+    
+}
+
+.direcciones{
+    font-size: 35px;
+    color: whitesmoke;
+    margin: 1%;
+    display: flex;
+    
+    
+}
+
+.despartamentos{
+    font-size: 35px;
+    color: whitesmoke;
+    margin: 1%;
+    display: flex;
+   
+    
+}
+
+.ciudades{
+    font-size: 35px;
+    color: whitesmoke;
+    margin: 1%;
+    display: flex;
+   
+    
+
+
+}
+
+.gerentes{
+    font-size: 35px;
+    color: whitesmoke;
+    margin: 1%;
+    display: flex;
+   
+    
+
+
+}
+
+.nsalas{
+    font-size: 35px;
+    color: whitesmoke;
+    margin: 1%;
+    display: flex;
+   
+    
+
+
+}
+
+.nTrabajadores{
+    font-size: 35px;
+    color: whitesmoke;
+    margin: 1%;
+    display: flex;
+    
+    
+
+}
+
+.cafeteria{
+    font-size: 35px;
+    color: whitesmoke;
+    margin: 1%;
+    display: flex;
+    
+
+
+}
+
+.boton{
+    font-size: 35px;
+    color: whitesmoke;
+    margin: 1%;
+    display: flex;
+   
+}
+
+
+
+.idBoton {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .idBoton:hover {
+    background-color: #2980b9;
+  }
+  
+  .idBoton:focus {
+    outline: none;
+    background-color: red;
+  }
+  
+  .idBoton:active {
+    background-color:red;
+  }
+
+  .inputDiseño {
+    display: block;
+    width: 10%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .inputDiseño:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+  }
+  
+  .inputDiseño::placeholder {
+    color: #999;
+  }
+  
+  .inputDiseño:hover,
+  .inputDiseño:active {
+    border-color: #2980b9;
+  }
+
+  

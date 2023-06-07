@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/r1.css">
+    <title>Gestión De Sucursales</title>
+</head>
+<body>
+    
+    
+
+        <div class="tituloLogo">
+            <img src="../recursos/WhatsApp_Image_2023-06-03_at_10.24.23_AM-removebg-preview.png" alt="" width="150px" height="150px">
+            <img src="../recursos/GESTION_DE_SUCURSALES-removebg-preview.png" alt="" width="85%" height="150px">
+        </div>
+
+        <form id="sucursalForm">  
+        <div class="fondo"><br><br>
+                <div class="Codigo">
+
+                       
+                        <label for="codigo"class="labelDirecion">Codigo: </label>
+                      <input type="text" id="codigo"  required> 
+
+                </div>
+                   
+                    <div class="direcciones">
+
+                        <label for="direccion" class="labelDirecion">Dirección: </label>
+                         <input type="text" id="direccion"  required> 
+                    </div>
+                     
+
+                        <div class="despartamentos">
+
+                            <label for="departamento"class="labelDirecion">Departamento: </label>
+                         <input type="text" id="departamento"  required> 
+
+                        </div>
+
+                   <div class="ciudades">
+
+                     <label for="ciudad"class="labelDirecion">Ciudad: </label>
+                     <input type="text" id="ciudad"  required> 
+                   </div>
+
+                     
+                    <div class="gerentes">
+
+                           <label for="gerente"class="labelDirecion">Gerente encargado: </label>
+                      <input type="text" id="gerente"   required> 
+                    </div>
+                  
+
+                    <div class="nsalas">
+                        <label for="numSalas"class="labelDirecion">Numero de salas: </label>
+                        <input type="number" id="numSalas"  required> 
+      
+
+                    </div>
+                     
+                    <div class="nTrabajadores">
+
+                        <label for="numTrabajadores"class="labelDirecion">Numero de trabajadores: </label>
+                  <input type="number" id="numTrabajadores"  required> 
+                    </div>
+
+                     
+                        <div class="cafeteria">
+
+                            <label for="tieneCafeteria"class="labelDirecion">Posee cafeteria: </label>
+                  <input type="checkbox" id="tieneCafeteria" class="inputDiseño" required> 
+                        </div>
+                      
+                    <div class="boton">
+
+                       <button type="submit" onclick="agregarSucursal()" class="idBoton">Guardar</button>
+                  <button type="button" onclick="actualizarSucursal()"  class="idBoton">Actualizar</button> 
+                  <script src="../js/jsparaR1.js"></script>
+                    </div>
+                 
+                 
+                   
+
+
+        </div>
+    </form>   
+        
+</body>
+</html>

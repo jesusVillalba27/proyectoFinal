@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1>Ventas</h1>
+  <label for="month">Seleccione un mes:</label>
+  <select id="month">
+    <option value="1">Enero</option>
+    <option value="2">Febrero</option>
+    <option value="3">Marzo</option>
+    <option value="4">Abril</option>
+    <option value="5">Mayo</option>
+    <option value="6">junio</option>
+    <option value="7">julio</option>
+    <option value="8">agosto</option>
+    <option value="9"> septiembre</option>
+    <option value="10"> octubre</option>
+    <option value="11"> noviembre</option>
+    <option value="12"> diciembre</option>
+
+    <div class="chart-container">
+        <canvas id="myChart"></canvas>
+      </div>
+ 
+  </select>
+  <button onclick="generateChart()">Generar gráfico</button>
+  
+  <canvas id="chart" class="chart-container"></canvas>
+    <script src="../js/reporteVentas.js"></script>
+</body>
+</html>

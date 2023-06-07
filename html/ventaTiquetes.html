@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/ventaTiquetes.css">
+    
+    <title>Venta de Tiquetes</title>
+</head>
+<body>
+    
+    <div class="titulo">
+        <img src="../recursos/WhatsApp_Image_2023-06-03_at_10.24.23_AM-removebg-preview.png" alt="" width="150px" height="150px">
+      <img src="../recursos/Cartelera__5_55-removebg-preview.png" alt="" width="85%" height="150px">
+
+    </div>
+    <div class="ParteArriba">
+        <div class="ladoIzquierdo">
+            
+            <div class="sala">
+                <img src="../recursos/2-removebg-preview.png" alt="" width="50%" height="80px">
+                
+                        <label id="salaLabel" class="labelsala"></label>
+            </div>
+            <div class="horario"><img src="../recursos/3-removebg-preview.png" alt=""width="55%" height="80px">
+                <label id="horaLabel" class="labelHorario"></label>
+            </div>
+            <div class="FechaVenta"><img src="../recursos/8-removebg-preview.png" alt=""width="50%" height="60px">
+                 <label id="fechaLabel" class="labelFecha"></label>
+            </div>
+
+
+            <div class="NumTiquetes" ><img src="../recursos/4-removebg-preview.png" alt=""width="55%" height="120px">
+                <label for="numTiquetes"></label>
+                <input type="number" min="0" max="100" step="1" value="0" id="numTiquetes" onchange="updateSeatAvailability()" class="InputNumero">
+            </div>
+           
+            
+
+        </div>
+
+        <div class="ladoDerecho">
+            <img src="../recursos/5-removebg-preview.png" alt="" width="100%" height="70px">
+            <div id="seatMap" class="seat-container"></div>
+            <div id="totalPrice">Total a pagar: $0</div>
+            
+        </div>
+
+
+
+
+    </div>
+
+    <div class="parteAbajo">
+
+        <div class="cliente">
+            
+        <img src="../recursos/7-removebg-preview.png" alt="" width="70%" height="70px"><br><br>
+            
+        <input type="text" id="nombre" class="inputCliente">
+        
+        </div>
+        
+        
+        
+        <div class="formPago">
+            
+            <img src="../recursos/6-removebg-preview.png" alt="" width="90%" height="70px"><br><br>
+            <label for="formaPago">Seleccione una forma de pago:</label>
+                     <select id="formaPago" onchange="showPaymentFields()">
+                      <option value="">Seleccione una opción</option>
+                         <option value="davidPlata">David Plata</option>
+                          <option value="nequi">Nequi</option>
+                           <option value="bancolombia">Bancolombia</option>
+                             </select>
+
+                     <div id="paymentFields" style="display: none;">
+                     <h2>Datos de Pago</h2>
+                     <div id="numeroContainer" style="display: none;">
+                       <label for="numero">Número:</label>
+                       <input type="text" id="numero">
+                         </div><br>
+                 <div id="contrasenaContainer">
+                 <label for="contrasena">Contraseña:</label>
+                      <input type="password" id="contrasena">
+                     <div class="button-container">
+                        
+                        <button id="guardarButton">Guardar</button>
+                        
+                      </div>
+                     </div>
+                     </div>
+        
+        <a href="../html/factura.html"></a>
+        </div>
+
+    </div>
+    <script src="../js/ventaTiquetes.js"></script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Productoras</title>
+    <link rel="stylesheet" href="../css/r2.css">
+</head>
+<body>
+
+    <div class="tituloLogo">
+        <img src="../recursos/WhatsApp_Image_2023-06-03_at_10.24.23_AM-removebg-preview.png" alt="" width="150px" height="150px">
+        <img src="../recursos/gestion-removebg-preview.png" alt="" width="85%" height="150px">
+    </div>
+
+    
+    <form action="formularioProductora">
+        <div class="fondo">
+<br><br>
+            <div class="codigo">
+
+                  <label for="codigo">Código: </label>
+            <input type="text" id="codigo" name="codigo" required> 
+            <div class="telefonos">
+
+                <label for="telefonos">teléfonos: </label>
+            <input type="text" id="telefonos" name="telefonos" required> 
+
+            </div>
+            </div>
+          
+            <div class="name">
+
+                 <label for="nombre">Nombre: </label>
+                <input type="text" id="nombre" name="nombre" required> 
+                 
+            <div class="celulares">
+
+                <label for="celulares">Celulares: </label>
+             <input type="text" id="celulares" name="celulares" required> 
+
+            </div>
+            </div>
+
+            <div class="paises">
+                <label for="pais">País: </label>
+                <input type="text" id="pais" name="pais" required> 
+                <div class="correo">
+
+                    <label for="correo">Correos electrónico: </label>
+                    <input type="email" id="correo" name="correo" required>
+       
+                </div>
+            </div>
+           
+           
+
+            
+            
+         
+
+         <div class="represet">
+
+             <label for="representante">Representante: </label>
+          <input type="email" id="representante" name="representante" required>
+          <div class="boton">
+
+            <input type="button" value="Guardar" onclick="guardarProductora()" class="idBoton">
+        <input type="button" value="Actualizar" onclick="actualizarProductora()"class="idBoton">
+        </div>
+       
+       </div>
+         </div>
+        
+
+            
+         
+                   
+
+
+    </form>
+    <script src="../js/jsparaR2.js"></script>
+</body>
+</html>
